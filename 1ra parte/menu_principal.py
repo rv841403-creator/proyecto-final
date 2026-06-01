@@ -15,3 +15,15 @@ if opcion == "1":
 
 elif opcion == "2":
     if estudiantes == []:
+        print("no hay estudiantes")
+    else:
+        print("\nlista de estudiantes:")
+        for i in range (len(estudiantes)):
+         print(i+1,".", estudiantes [i])
+elif opcion== "salir":
+    print("saliendo del programa...")
+else:
+    print("opcion no valida")  
+        
+        
+        
